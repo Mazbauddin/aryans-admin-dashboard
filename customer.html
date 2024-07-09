@@ -1,0 +1,824 @@
+﻿
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta content="" name="description" />
+  <meta content="webthemez" name="author" />
+  <title>Customer</title>
+  <!-- Bootstrap Styles-->
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <!-- FontAwesome Styles-->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <link href="css/animate.css" rel="stylesheet" />
+  <!--  Data Table-->
+  <link rel="stylesheet" href="css\dataTables.bootstrap.min.css">
+  <!-- Custom Styles-->
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/default.css" rel="stylesheet" />
+  <link href="css/responsive.css" rel="stylesheet" />
+  <link href="css/meanmenu.css" rel="stylesheet" />
+  <!-- Google Fonts-->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+
+</head>
+
+<body>
+  <header class="header-top">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3 col-md-3">
+          <div class="logo">
+            <a class="navbar-brand" href="#">
+              <img src="img/logo/logo.png" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-5">
+          <div id="sideNav" href="">
+            <i class="fa fa-bars icon"></i>
+          </div>
+          <div class="search-box">
+            <form action="" method="">
+              <a href="#" class="search-btn">
+                <i class="fa fa-search"></i>
+              </a>
+              <input class="search-text" type="text" placeholder="Quick Search" aria-label="Search" name="">
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4">
+          <div class="profile-drop">
+            <div class="row">
+              <div class="col-md-8 p-0">
+                <div class="txt-wth">
+                  <p>Jamie <br /> Lannister</p>
+                </div>
+              </div>
+              <div class="col-md-4 p-0">
+                <div class="profile">
+                  <ul>
+                    <li class="dropdown">
+                      <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
+                        <img src="img/logo/profile-1.png" alt="">
+                      </a>
+                      <ul class="dropdown-menu dropdown-user animated flipInX">
+                        <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="#"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--Dashboard Side Navbar Start-->
+  <nav class="navbar-default navbar-side" role="navigation">
+    <div class="sidebar-collapse">
+      <ul class="nav" id="main-menu">
+        <li>
+          <a class="dsh" href="index.html">
+            <img src="img/logo/Dashboard-img.png" alt="">Dashboard</a>
+        </li>
+        <li>
+          <a href="#"><img src="img/logo/inventory.png" alt="">Inventory<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li>
+              <a href="#">Article Managment<span class="fa arrow"></span></a>
+              <ul class="nav nav-third-level">
+                <li>
+                  <a href="products.html">Products</a>
+                </li>
+                <li>
+                  <a href="add-article.html">Add Article</a>
+                </li>
+                <li>
+                  <a href="edit-article.html">Edit Article</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Stock<span class="fa arrow"></span></a>
+              <ul class="nav nav-third-level">
+                <li>
+                  <a href="stock.html">Current Stock</a>
+                </li>
+                <li>
+                  <a href="add-stock.html">Add Stock</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><img src="img/logo/employee.png" alt="">Employee<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li>
+              <a href="#">All Employee</a>
+            </li>
+            <li>
+              <a href="#">Add New Employee</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><img src="img/logo/customer.png" alt="">Customers<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li>
+              <a href="customer.html">Customer</a>
+            </li>
+            <li>
+              <a href="all-customer.html">All Customer</a>
+            </li>
+            <li>
+              <a href="add-customer.html">Add New Customer</a>
+            </li>
+
+          </ul>
+        </li>
+        <li>
+          <a href="#"><img src="img/logo/customer.png" alt="">Accounts<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li>
+              <a href="#">x</a>
+            </li>
+            <li>
+              <a href="#">y</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><img src="img/logo/customer.png" alt="">Delivery Managment<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li>
+              <a href="delivery.html">Delivery Quee</a>
+            </li>
+            <li>
+              <a href="deficit-alert.html">Stock Deficit Report</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="sale.html"><img src="img/logo/customer.png" alt="">Sale<span class="fa arrow"></span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--Dashboard Side Navbar End-->
+
+
+  <div id="page-wrapper">
+    <div id="page-inner">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <div class="customer-info">
+            <div class="row m-0">
+              <div class="col-lg-4 col-md-12 p-0">
+                <div class="edit-cus ht-full pt-20 pb-100">
+                  <div class="customer-edit">
+                    <button type="submit" class="edit-button">
+                      <i class="fa fa-pencil"></i>Edit
+                    </button>
+                  </div>
+                  <div class="customer-img">
+                    <input type="file" id="file1" name="image" accept="image/*" capture style="display:none" />
+                    <img src="img/customer/Customer.png" id="upfile1" style="cursor:pointer" />
+                  </div>
+                  <div class="customer-text">
+                    <form action="" method="">
+                      <input type="text" class="cus" placeholder="CUSTOMER NAME" disabled>
+                      <input type="text" class="cus mt-30" placeholder="Customer Address" disabled>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-8 col-md-12 p-0">
+                <form action="" method="">
+                  <div class="off-information">
+                    <div class="col-lg-12 col-md-12 p-0 hr">
+                      <div class="inf">
+                        <h4>Official Information</h4>
+                        <div class="infor-off">
+                          <div class="row">
+                            <!-- <div class="col-lg-4">
+                              <label class="off-info">Email</label>
+                              <input type="email" class="cust " name="" value="" placeholder="Ofice Email" disabled>
+                            </div> -->
+                            <div class="col-lg-6 col-md-6">
+                              <label class="off-info">Phone No.</label>
+                              <input type="number" class="cust " name="" value="" placeholder="office phone no." disabled>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                              <label class="off-info">Comment</label>
+                              <textarea name="name" class="cust " placeholder="comment goes here" disabled></textarea>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 p-0 hr">
+                      <div class="inf">
+                        <h4>Contact Person 1</h4>
+                        <div class="infor-off">
+                          <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                              <label class="off-info">Name</label>
+                              <input type="text" class="cust " placeholder="name" name="" value="" disabled>
+                            </div>
+                            <!-- <div class="col-lg-4">
+                              <label class="off-info">Email</label>
+                              <input type="email" class="cust " placeholder="email" name="" value="" disabled>
+                            </div> -->
+                            <div class="col-lg-6 col-md-6">
+                              <label class="off-info">Phone No.</label>
+                              <input type="number" class="cust " placeholder="phone no." name="" value="" disabled>
+                            </div>
+                            <div class="col-lg-6 col-md-6 mt-30">
+                              <label class="off-info">Position</label>
+                              <input type="text" class="cust " placeholder="post" name="" value="" disabled>
+                            </div>
+                            <div class="col-lg-6 col-md-6 mt-30">
+                              <label class="off-info">Comment</label>
+                              <textarea name="name" class="cust " placeholder="comment goes here" disabled></textarea>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 p-0">
+                      <div class="inf">
+                        <h4>Contact Person 2</h4>
+                        <div class="infor-off">
+                          <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                              <label class="off-info">Name</label>
+                              <input type="text" class="cust " placeholder="name" name="" value="" disabled>
+                            </div>
+                            <!-- <div class="col-lg-4">
+                              <label class="off-info">Email</label>
+                              <input type="email" class="cust " placeholder="email" name="" value="" disabled>
+                            </div> -->
+                            <div class="col-lg-6 col-md-6">
+                              <label class="off-info">Phone No.</label>
+                              <input type="number" class="cust " placeholder="phone no." name="" value="" disabled>
+                            </div>
+                            <div class="col-lg-6 col-md-6 mt-30">
+                              <label class="off-info">Position</label>
+                              <input type="text" class="cust " placeholder="post" name="" value="" disabled>
+                            </div>
+                            <div class="col-lg-6 col-md-6 mt-30">
+                              <label class="off-info">Comment</label>
+                              <textarea name="name" class="cust " placeholder="comment goes here" disabled></textarea>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12">
+                      <div class="changes">
+                        <button type="submit" class="btn-three" disabled>Save Changes</button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--               accounting area start-->
+        <div class="col-lg-6 col-md-12 mt-45">
+          <div class="accounting">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                Accounting Overview
+              </div>
+              <div class="panel-body">
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="80" style="width: 80%">
+                    <span class="sr-only">80% Complete (success)</span>
+                    <p>1,00,000 ৳ Billed</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel-body">
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="60" style="width: 60%">
+                    <span class="sr-only">60% Complete (success)</span>
+                    <p>80,000 ৳ Paid</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel-body">
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30" style="width: 30%">
+                    <span class="sr-only">30% Complete (success)</span>
+                    <p>20,000 ৳ Due</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--   accounting area end   -->
+        <!--               Trend area start-->
+        <div class="col-lg-6 col-md-12 mt-45">
+          <div class="trend">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                Customer Trend
+              </div>
+              <div class="row m-0">
+                <div class="col-lg-4 col-md-4 p-0">
+                  <div class="customer-trend b-right">
+                    <img src="img/trend/trend-1.png" alt="">
+                    <h4>Vulcan 1998</h4>
+                    <h3>1080 QTY</h3>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 p-0">
+                  <div class="customer-trend b-right">
+                    <img src="img/trend/trend-2.png" alt="">
+                    <h4>Angel 1789</h4>
+                    <h3>913 QTY</h3>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 p-0">
+                  <div class="customer-trend mt-10">
+                    <img src="img/trend/trend-3.png" alt="">
+                    <h4>Vulcan 3015</h4>
+                    <h3>860 QTY</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--               Trend area end-->
+        <!-- Invoices area start -->
+        <div class="col-lg-12 col-md-12 mt-45">
+          <div class="invoice">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                Invoices
+              </div>
+              <form action="" method="">
+                <div class="row">
+                  <div class="col-lg-3 col-md-6">
+                    <div class="invoice-list mt-40">
+                      <ul>
+                        <li><span class="fa fa-question"></span>Start Date:</li>
+                        <li><span class="fa fa-question"></span>End Date:</li>
+                        <li><span class="fa fa-question"></span>Delivery Status</li>
+                        <li><span class="fa fa-question"></span>Payment Status</li>
+                        <li><span class="fa fa-question"></span>Invoice ID</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-lg-9 col-md-6">
+                    <div class="invoice-form mt-40 mb-50">
+                      <input type="date" class="form-control" placeholder="">
+                      <input type="date" class="form-control" placeholder="">
+                      <select name="" id="" class="form-control">
+                        <option value=""> All</option>
+                        <option value=""> One</option>
+                        <option value=""> Two</option>
+                        <option value=""> Three</option>
+                        <option value=""> Four</option>
+                      </select>
+                      <select name="" id="" class="form-control">
+                        <option value=""> All</option>
+                        <option value=""> One</option>
+                        <option value=""> Two</option>
+                        <option value=""> Three</option>
+                        <option value=""> Four</option>
+                      </select>
+                      <input type="number" class="form-control mb-20" placeholder="">
+
+                      <button type="submit" class="btn-one mr-10">Clear Filters</button>
+                      <button type="submit" class="btn-two">Search</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+              <!-- Data Table start -->
+
+              <table id="example" class="mt-100 table table-striped table-bordered" style="width:100%">
+                <thead class="spc">
+                  <tr class="tb">
+                    <th>Invoice ID</th>
+                    <th>Date</th>
+                    <th>Invoiced By</th>
+                    <th>Total</th>
+                    <th>Total Article</th>
+                    <th>Payment Status</th>
+                    <th>Delivery Status</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody class="lheight">
+                  <tr>
+                    <td>123456</td>
+                    <td>24/07/29</td>
+                    <td>Harry Potter</td>
+                    <td>‎৳51,980</td>
+                    <td>12</td>
+                    <td class="gr">Paid</td>
+                    <td class="gr">Delivered</td>
+                    <td class="clk"><a href="#">View</a></td>
+                  </tr>
+                  <tr>
+                    <td>987654</td>
+                    <td>23/07/29</td>
+                    <td>Tom Riddle</td>
+                    <td>‎‎৳90,500</td>
+                    <td>22</td>
+                    <td class="rd">Due</td>
+                    <td class="rd">Pending</td>
+                    <td class="clk"><a href="#">View</a></td>
+                  </tr>
+                  <tr>
+                    <td>123456</td>
+                    <td>24/07/29</td>
+                    <td>Harry Potter</td>
+                    <td>‎৳51,980</td>
+                    <td>12</td>
+                    <td>Paid</td>
+                    <td>Delivered</td>
+                    <td class="clk"><a href="#">View</a></td>
+                  </tr>
+                  <tr>
+                    <td>987654</td>
+                    <td>23/07/29</td>
+                    <td>Tom Riddle</td>
+                    <td>‎‎৳90,500</td>
+                    <td>22</td>
+                    <td class="yl">Partially Paid</td>
+                    <td class="yl">Delivered</td>
+                    <td class="clk"><a href="#">View</a></td>
+                  </tr>
+                  <tr>
+                    <td>123456</td>
+                    <td>24/07/29</td>
+                    <td>Harry Potter</td>
+                    <td>‎৳51,980</td>
+                    <td>12</td>
+                    <td>Paid</td>
+                    <td>Delivered</td>
+                    <td class="clk"><a href="#">View</a></td>
+                  </tr>
+                  <tr>
+                    <td>987654</td>
+                    <td>23/07/29</td>
+                    <td>Tom Riddle</td>
+                    <td>‎‎৳90,500</td>
+                    <td>22</td>
+                    <td>Partially Paid</td>
+                    <td>Delivered</td>
+                    <td class="clk"><a href="#">View</a></td>
+                  </tr>
+                  <tr>
+                    <td>123456</td>
+                    <td>24/07/29</td>
+                    <td>Harry Potter</td>
+                    <td>‎৳51,980</td>
+                    <td>12</td>
+                    <td class="gr">Paid</td>
+                    <td class="gr">Delivered</td>
+                    <td class="clk"><a href="#">View</a></td>
+                  </tr>
+                  <tr>
+                    <td>987654</td>
+                    <td>23/07/29</td>
+                    <td>Tom Riddle</td>
+                    <td>‎‎৳90,500</td>
+                    <td>22</td>
+                    <td class="rd">Due</td>
+                    <td class="rd">Pending</td>
+                    <td class="clk"><a href="#">View</a></td>
+                  </tr>
+                  <tr>
+                    <td>123456</td>
+                    <td>24/07/29</td>
+                    <td>Harry Potter</td>
+                    <td>‎৳51,980</td>
+                    <td>12</td>
+                    <td>Paid</td>
+                    <td>Delivered</td>
+                    <td class="clk"><a href="#">View</a></td>
+                  </tr>
+                  <tr>
+                    <td>987654</td>
+                    <td>23/07/29</td>
+                    <td>Tom Riddle</td>
+                    <td>‎‎৳90,500</td>
+                    <td>22</td>
+                    <td class="yl">Partially Paid</td>
+                    <td class="yl">Delivered</td>
+                    <td class="clk"><a href="#">View</a></td>
+                  </tr>
+                  <tr>
+                    <td>123456</td>
+                    <td>24/07/29</td>
+                    <td>Harry Potter</td>
+                    <td>‎৳51,980</td>
+                    <td>12</td>
+                    <td>Paid</td>
+                    <td>Delivered</td>
+                    <td class="clk"><a href="#">View</a></td>
+                  </tr>
+                  <tr>
+                    <td>987654</td>
+                    <td>23/07/29</td>
+                    <td>Tom Riddle</td>
+                    <td>‎‎৳90,500</td>
+                    <td>22</td>
+                    <td>Partially Paid</td>
+                    <td>Delivered</td>
+                    <td class="clk"><a href="#">View</a></td>
+                  </tr>
+                  <tr>
+                    <td>123456</td>
+                    <td>24/07/29</td>
+                    <td>Harry Potter</td>
+                    <td>‎৳51,980</td>
+                    <td>12</td>
+                    <td class="gr">Paid</td>
+                    <td class="gr">Delivered</td>
+                    <td class="clk"><a href="#">View</a></td>
+                  </tr>
+                  <tr>
+                    <td>987654</td>
+                    <td>23/07/29</td>
+                    <td>Tom Riddle</td>
+                    <td>‎‎৳90,500</td>
+                    <td>22</td>
+                    <td class="rd">Due</td>
+                    <td class="rd">Pending</td>
+                    <td class="clk"><a href="#">View</a></td>
+                  </tr>
+                  <tr>
+                    <td>123456</td>
+                    <td>24/07/29</td>
+                    <td>Harry Potter</td>
+                    <td>‎৳51,980</td>
+                    <td>12</td>
+                    <td>Paid</td>
+                    <td>Delivered</td>
+                    <td class="clk"><a href="#">View</a></td>
+                  </tr>
+                  <tr>
+                    <td>987654</td>
+                    <td>23/07/29</td>
+                    <td>Tom Riddle</td>
+                    <td>‎‎৳90,500</td>
+                    <td>22</td>
+                    <td class="yl">Partially Paid</td>
+                    <td class="yl">Delivered</td>
+                    <td class="clk"><a href="#">View</a></td>
+                  </tr>
+                  <tr>
+                    <td>123456</td>
+                    <td>24/07/29</td>
+                    <td>Harry Potter</td>
+                    <td>‎৳51,980</td>
+                    <td>12</td>
+                    <td>Paid</td>
+                    <td>Delivered</td>
+                    <td class="clk"><a href="#">View</a></td>
+                  </tr>
+                  <tr>
+                    <td>987654</td>
+                    <td>23/07/29</td>
+                    <td>Tom Riddle</td>
+                    <td>‎‎৳90,500</td>
+                    <td>22</td>
+                    <td>Partially Paid</td>
+                    <td>Delivered</td>
+                    <td class="clk"><a href="#">View</a></td>
+                  </tr>
+                  <tr>
+                    <td>123456</td>
+                    <td>24/07/29</td>
+                    <td>Harry Potter</td>
+                    <td>‎৳51,980</td>
+                    <td>12</td>
+                    <td class="gr">Paid</td>
+                    <td class="gr">Delivered</td>
+                    <td class="clk"><a href="#">View</a></td>
+                  </tr>
+                  <tr>
+                    <td>987654</td>
+                    <td>23/07/29</td>
+                    <td>Tom Riddle</td>
+                    <td>‎‎৳90,500</td>
+                    <td>22</td>
+                    <td class="rd">Due</td>
+                    <td class="rd">Pending</td>
+                    <td class="clk"><a href="#">View</a></td>
+                  </tr>
+                  <tr>
+                    <td>123456</td>
+                    <td>24/07/29</td>
+                    <td>Harry Potter</td>
+                    <td>‎৳51,980</td>
+                    <td>12</td>
+                    <td>Paid</td>
+                    <td>Delivered</td>
+                    <td class="clk"><a href="#">View</a></td>
+                  </tr>
+                  <tr>
+                    <td>987654</td>
+                    <td>23/07/29</td>
+                    <td>Tom Riddle</td>
+                    <td>‎‎৳90,500</td>
+                    <td>22</td>
+                    <td class="yl">Partially Paid</td>
+                    <td class="yl">Delivered</td>
+                    <td class="clk"><a href="#">View</a></td>
+                  </tr>
+                  <tr>
+                    <td>123456</td>
+                    <td>24/07/29</td>
+                    <td>Harry Potter</td>
+                    <td>‎৳51,980</td>
+                    <td>12</td>
+                    <td>Paid</td>
+                    <td>Delivered</td>
+                    <td class="clk"><a href="#">View</a></td>
+                  </tr>
+                  <tr>
+                    <td>987654</td>
+                    <td>23/07/29</td>
+                    <td>Tom Riddle</td>
+                    <td>‎‎৳90,500</td>
+                    <td>22</td>
+                    <td>Partially Paid</td>
+                    <td>Delivered</td>
+                    <td class="clk"><a href="#">View</a></td>
+                  </tr>
+                  <tr>
+                    <td>123456</td>
+                    <td>24/07/29</td>
+                    <td>Harry Potter</td>
+                    <td>‎৳51,980</td>
+                    <td>12</td>
+                    <td class="gr">Paid</td>
+                    <td class="gr">Delivered</td>
+                    <td class="clk"><a href="#">View</a></td>
+                  </tr>
+                  <tr>
+                    <td>987654</td>
+                    <td>23/07/29</td>
+                    <td>Tom Riddle</td>
+                    <td>‎‎৳90,500</td>
+                    <td>22</td>
+                    <td class="rd">Due</td>
+                    <td class="rd">Pending</td>
+                    <td class="clk"><a href="#">View</a></td>
+                  </tr>
+                  <tr>
+                    <td>123456</td>
+                    <td>24/07/29</td>
+                    <td>Harry Potter</td>
+                    <td>‎৳51,980</td>
+                    <td>12</td>
+                    <td>Paid</td>
+                    <td>Delivered</td>
+                    <td class="clk"><a href="#">View</a></td>
+                  </tr>
+                  <tr>
+                    <td>987654</td>
+                    <td>23/07/29</td>
+                    <td>Tom Riddle</td>
+                    <td>‎‎৳90,500</td>
+                    <td>22</td>
+                    <td class="yl">Partially Paid</td>
+                    <td class="yl">Delivered</td>
+                    <td class="clk"><a href="#">View</a></td>
+                  </tr>
+                  <tr>
+                    <td>123456</td>
+                    <td>24/07/29</td>
+                    <td>Harry Potter</td>
+                    <td>‎৳51,980</td>
+                    <td>12</td>
+                    <td>Paid</td>
+                    <td>Delivered</td>
+                    <td class="clk"><a href="#">View</a></td>
+                  </tr>
+                  <tr>
+                    <td>987654</td>
+                    <td>23/07/29</td>
+                    <td>Tom Riddle</td>
+                    <td>‎‎৳90,500</td>
+                    <td>22</td>
+                    <td>Partially Paid</td>
+                    <td>Delivered</td>
+                    <td class="clk"><a href="#">View</a></td>
+                  </tr>
+                  <tr>
+                    <td>123456</td>
+                    <td>24/07/29</td>
+                    <td>Harry Potter</td>
+                    <td>‎৳51,980</td>
+                    <td>12</td>
+                    <td class="gr">Paid</td>
+                    <td class="gr">Delivered</td>
+                    <td class="clk"><a href="#">View</a></td>
+                  </tr>
+                  <tr>
+                    <td>987654</td>
+                    <td>23/07/29</td>
+                    <td>Tom Riddle</td>
+                    <td>‎‎৳90,500</td>
+                    <td>22</td>
+                    <td class="rd">Due</td>
+                    <td class="rd">Pending</td>
+                    <td class="clk"><a href="#">View</a></td>
+                  </tr>
+                  <tr>
+                    <td>123456</td>
+                    <td>24/07/29</td>
+                    <td>Harry Potter</td>
+                    <td>‎৳51,980</td>
+                    <td>12</td>
+                    <td>Paid</td>
+                    <td>Delivered</td>
+                    <td class="clk"><a href="#">View</a></td>
+                  </tr>
+                  <tr>
+                    <td>987654</td>
+                    <td>23/07/29</td>
+                    <td>Tom Riddle</td>
+                    <td>‎‎৳90,500</td>
+                    <td>22</td>
+                    <td class="yl">Partially Paid</td>
+                    <td class="yl">Delivered</td>
+                    <td class="clk"><a href="#">View</a></td>
+                  </tr>
+                  <tr>
+                    <td>123456</td>
+                    <td>24/07/29</td>
+                    <td>Harry Potter</td>
+                    <td>‎৳51,980</td>
+                    <td>12</td>
+                    <td>Paid</td>
+                    <td>Delivered</td>
+                    <td class="clk"><a href="#">View</a></td>
+                  </tr>
+                  <tr>
+                    <td>987654</td>
+                    <td>23/07/29</td>
+                    <td>Tom Riddle</td>
+                    <td>‎‎৳90,500</td>
+                    <td>22</td>
+                    <td>Partially Paid</td>
+                    <td>Delivered</td>
+                    <td class="clk"><a href="#">View</a></td>
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </div>
+          </div>
+        </div>
+        <!-- Invoices area end -->
+      </div>
+    </div>
+    <!-- /. PAGE INNER  -->
+  </div>
+  <!-- /. PAGE WRAPPER  -->
+
+  <!-- /. WRAPPER  -->
+  <!-- JS Scripts-->
+  <!-- jQuery Js -->
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/modernizr-3.6.0.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <!-- Bootstrap Js -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Data Table -->
+  <script src="js/jquery.dataTables.min.js"></script>
+  <script src="js/dataTables.bootstrap4.min.js"></script>
+  <!-- Dropdown Menu Js -->
+  <script src="js/dropdownMenu.js"></script>
+  <!-- Custom Js -->
+  <script src="js/main.js"></script>
+
+
+
+</body>
+
+</html>

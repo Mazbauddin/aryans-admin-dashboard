@@ -1,0 +1,535 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta content="" name="description" />
+  <meta content="webthemez" name="author" />
+  <title>Edit-Article</title>
+  <!-- Bootstrap Styles-->
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <!--  Data Table-->
+  <link rel="stylesheet" href="css\dataTables.bootstrap.min.css">
+  <!-- FontAwesome Styles-->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <link href="css/animate.css" rel="stylesheet" />
+
+  <!-- Custom Styles-->
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/default.css" rel="stylesheet" />
+  <link href="css/responsive.css" rel="stylesheet" />
+  <link href="css/meanmenu.css" rel="stylesheet" />
+  <!-- Google Fonts-->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+
+</head>
+
+<body>
+  <header class="header-top">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3 col-md-3">
+          <div class="logo">
+            <a class="navbar-brand" href="#">
+              <img src="img/logo/logo.png" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-5">
+          <div id="sideNav" href="">
+            <i class="fa fa-bars icon"></i>
+          </div>
+          <div class="search-box">
+            <form action="" method="">
+              <a href="#" class="search-btn">
+                <i class="fa fa-search"></i>
+              </a>
+              <input class="search-text" type="text" placeholder="Quick Search" aria-label="Search" name="">
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4">
+          <div class="profile-drop">
+            <div class="row">
+              <div class="col-md-8 p-0">
+                <div class="txt-wth">
+                  <p>Jamie <br /> Lannister</p>
+                </div>
+              </div>
+              <div class="col-md-4 p-0">
+                <div class="profile">
+                  <ul>
+                    <li class="dropdown">
+                      <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
+                        <img src="img/logo/profile-1.png" alt="">
+                      </a>
+                      <ul class="dropdown-menu dropdown-user animated flipInX">
+                        <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="#"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--Dashboard Side Navbar Start-->
+  <nav class="navbar-default navbar-side" role="navigation">
+    <div class="sidebar-collapse">
+      <ul class="nav" id="main-menu">
+        <li>
+          <a class="dsh" href="index.html">
+            <img src="img/logo/Dashboard-img.png" alt="">Dashboard</a>
+        </li>
+        <li>
+          <a href="#"><img src="img/logo/inventory.png" alt="">Inventory<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li>
+              <a href="#">Article Managment<span class="fa arrow"></span></a>
+              <ul class="nav nav-third-level">
+                <li>
+                  <a href="products.html">Products</a>
+                </li>
+                <li>
+                  <a href="add-article.html">Add Article</a>
+                </li>
+                <li>
+                  <a href="edit-article.html">Edit Article</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Stock<span class="fa arrow"></span></a>
+              <ul class="nav nav-third-level">
+                <li>
+                  <a href="stock.html">Current Stock</a>
+                </li>
+                <li>
+                  <a href="add-stock.html">Add Stock</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><img src="img/logo/employee.png" alt="">Employee<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li>
+              <a href="#">All Employee</a>
+            </li>
+            <li>
+              <a href="#">Add New Employee</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><img src="img/logo/customer.png" alt="">Customers<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li>
+              <a href="customer.html">Customer</a>
+            </li>
+            <li>
+              <a href="all-customer.html">All Customer</a>
+            </li>
+            <li>
+              <a href="add-customer.html">Add New Customer</a>
+            </li>
+
+          </ul>
+        </li>
+        <li>
+          <a href="#"><img src="img/logo/customer.png" alt="">Accounts<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li>
+              <a href="#">x</a>
+            </li>
+            <li>
+              <a href="#">y</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><img src="img/logo/customer.png" alt="">Delivery Managment<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li>
+              <a href="delivery.html">Delivery Quee</a>
+            </li>
+            <li>
+              <a href="deficit-alert.html">Stock Deficit Report</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="sale.html"><img src="img/logo/customer.png" alt="">Sale<span class="fa arrow"></span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--Dashboard Side Navbar End-->
+
+  <!-- Add Article Part Start -->
+  <div id="page-wrapper">
+    <div id="page-inner">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <div class="customer-info pt-50">
+            <div class="row m-0">
+              <div class="col-lg-3 col-md-12 p-0">
+                <div class="edit-cus ht-full t-center b-none pt-50">
+                  <div class="article-img"></div>
+                  <div class="add-sec">
+                    <div class="row m-0">
+                      <div class="col-lg-6 col-md-6 p-0">
+                        <input type="file" id="file" accept="image/*" name="" value="">
+                        <label for="file">
+                          <i class="fa fa-plus ctrl" aria-hidden="true" style="cursor:pointer"></i>
+                        </label>
+                      </div>
+                      <div class="col-lg-6 col-md-6">
+                        <i class="fa fa-trash-o ctrl-d" aria-hidden="true" disabled></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-9 p-0">
+                <div class="invoice box-shadow">
+                  <div class="panel panel-default">
+                    <div class="customer-edit f-right">
+                      <button type="submit" class="edit-button enable" data-toggle="modal" data-target="#exampleModal0">
+                        <i class="fa fa-pencil"></i>Enable Editing
+                      </button>
+                    </div>
+                    <div class="panel-heading mt-50">
+                      Basic Information
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-4 col-md-4">
+                        <div class="name-field mt-30">
+                          <p><span class="fa fa-question"></span>Article No.</p>
+                          <p><span class="fa fa-question"></span>Article Name</p>
+                          <p><span class="fa fa-question"></span>Details</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-7 col-md-7">
+                        <div class="invoice-form mt-40">
+                          <form action="" method="">
+                            <input type="number" class="form-control mb-10" placeholder="">
+                            <input type="text" class="form-control mb-10" placeholder="">
+                            <input type="text" class="form-control mb-10" placeholder="">
+                          </form>
+                        </div>
+                      </div>
+
+                    </div>
+                    <!-- varients area start -->
+                    <div class="panel-heading mt-30">
+                      Article Variants
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="invoice-list mt-40">
+                          <ul>
+                            <li><span class="fa fa-question"></span>Materials
+                                <!-- Click trigger modal -->
+                                <a href="#">
+                                  <i class="fa fa-plus click" data-toggle="modal" data-target="#exampleModal" aria-hidden="true"></i>
+                                </a>
+                              </li>
+                            <!-- Modal Material-->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                              <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                  <div class="modal-header primary">
+                                    <h5 class="modal-title" id="exampleModalLabel">Add New Material</h5>
+                                  </div>
+                                  <div class="modal-body ml-35 mr-35">
+                                    <input type="text" name="" value="" placeholder="Enter Material Name" class="cust mt-20 mb-15 wt-50">
+                                    <div class="procced-para">
+                                      <p style="Color:red">*You will not be able to change this name. Please make sure the entered name is correct.</p>
+                                    </div>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                    <button type="button" class="btn btn-primary">Add</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <li>
+                              <div class="cbox ml-30">
+                                <input type="checkbox" name="" value="" class="arv">
+                                <p>Plastic</p>
+                              </div>
+                              <div class="cbox">
+                                <input type="checkbox" name="" value="" class="arv">
+                                <p>Eva</p>
+                              </div>
+                            </li>
+                            <li><span class="fa fa-question"></span>Catagory
+<a href="#">
+  <i class="fa fa-plus click" data-toggle="modal" data-target="#exampleModal1" aria-hidden="true"></i>
+</a>
+                            </li>
+                            <!-- Modal Catagory-->
+                            <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                              <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                  <div class="modal-header primary">
+                                    <h5 class="modal-title" id="exampleModalLabel">Add New Catagory</h5>
+                                  </div>
+                                  <div class="modal-body ml-35 mr-35">
+                                    <input type="text" name="" value="" placeholder="Enter Catagory Name" class="cust mt-20 mb-15 wt-50">
+                                    <div class="procced-para">
+                                      <p style="Color:red">*You will not be able to change this name. Please make sure the entered name is correct.</p>
+                                    </div>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                    <button type="button" class="btn btn-primary">Add</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <li>
+                              <div class="cbox  ml-30">
+                                <input type="checkbox" name="" value="" class="arv">
+                                <p>A</p>
+                              </div>
+                              <div class="cbox">
+                                <input type="checkbox" name="" value="" class="arv">
+                                <p>B</p>
+                              </div>
+                            </li>
+                            <!-- <li><span class="fa fa-question"></span>Color <a href="#">
+                                <i class="fa fa-plus click" aria-hidden="true"></i>
+                              </a>
+                            </li>
+                            <li>
+                              <div class="cbox  ml-30">
+                                <input type="checkbox" name="" value="" class="arv">
+                                <p>Red</p>
+                              </div>
+                              <div class="cbox">
+                                <input type="checkbox" name="" value="" class="arv">
+                                <p>Green</p>
+                              </div>
+                              <div class="cbox">
+                                <input type="checkbox" name="" value="" class="arv">
+                                <p>Red</p>
+                              </div>
+                              <div class="cbox">
+                                <input type="checkbox" name="" value="" class="arv">
+                                <p>Green</p>
+                              </div>
+                            </li> -->
+                            <li><span class="fa fa-question"></span>Size Group<a href="#">
+                                <i class="fa fa-plus click" data-toggle="modal" data-target="#exampleModal2" aria-hidden="true"></i>
+                              </a></li>
+                              <!-- Modal Size Group-->
+                              <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header primary">
+                                      <h5 class="modal-title" id="exampleModalLabel">Add New Size Group</h5>
+                                    </div>
+                                    <div class="modal-body ml-35 mr-35">
+                                      <input type="number" name="" value="" placeholder="Enter Size Group" class="cust mt-20 mb-15 wt-50">
+                                      <div class="procced-para">
+                                        <p style="Color:red">*You will not be able to change this name. Please make sure the entered name is correct.</p>
+                                      </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                      <button type="button" class="btn btn-primary">Add</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            <li>
+                              <div class="cbox  ml-30">
+                                <input type="checkbox" name="" value="" class="arv">
+                                <p>1-4</p>
+                              </div>
+                              <div class="cbox">
+                                <input type="checkbox" name="" value="" class="arv">
+                                <p>5-4</p>
+                              </div>
+                              <div class="cbox">
+                                <input type="checkbox" name="" value="" class="arv">
+                                <p>1-4</p>
+                              </div>
+                              <div class="cbox">
+                                <input type="checkbox" name="" value="" class="arv">
+                                <p>7-4</p>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <button type="submit" class="btn-two mt-40 ml-10 f-left">Generate Variants</button>
+                      </div>
+
+                    </div>
+                    <div class="container-fluid p-0 mt-50">
+                      <div class="col-md-12">
+                        <table class="table">
+                          <thead class="spc">
+                            <tr>
+                              <th>Material</th>
+                              <th>Gender</th>
+                              <th>Color</th>
+                              <th>Size Group</th>
+                            </tr>
+                          </thead>
+                          <tbody class="lheight">
+                            <tr>
+                              <td>Plastic</td>
+                              <td>Male</td>
+                              <td>Red</td>
+                              <td>‎1-4</td>
+                            </tr>
+                            <tr>
+                              <td>Plastic</td>
+                              <td>Male</td>
+                              <td>Red</td>
+                              <td>‎1-4</td>
+                            </tr>
+                            <tr>
+                              <td>Plastic</td>
+                              <td>Male</td>
+                              <td>Red</td>
+                              <td>‎1-4</td>
+                            </tr>
+                            <tr>
+                              <td>Plastic</td>
+                              <td>Male</td>
+                              <td>Red</td>
+                              <td>‎1-4</td>
+                            </tr>
+                            <tr>
+                              <td>Plastic</td>
+                              <td>Male</td>
+                              <td>Red</td>
+                              <td>‎1-4</td>
+                            </tr>
+                            <tr>
+                              <td>Plastic</td>
+                              <td>Male</td>
+                              <td>Red</td>
+                              <td>‎1-4</td>
+                            </tr>
+                            <tr>
+                              <td>Plastic</td>
+                              <td>Male</td>
+                              <td>Red</td>
+                              <td>‎1-4</td>
+                            </tr>
+                            <tr>
+                              <td>Plastic</td>
+                              <td>Male</td>
+                              <td>Red</td>
+                              <td>‎1-4</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    <!-- pricing area -->
+                    <div class="panel-heading">
+                      Pricing
+                    </div>
+                    <div class="container-fluid p-0 mt-50">
+                      <div class="col-md-7">
+
+                        <table class="table">
+                          <thead class="spc">
+                            <tr>
+                              <th>Material Line</th>
+                              <th>Price</th>
+                            </tr>
+                          </thead>
+                          <tbody class="lheight">
+                            <tr>
+                              <td>Plastic A</td>
+                              <td>
+                                <form class="" action="index.html" method="post">
+                                  <input type="number" class="it-wt" name="" value="">
+                                </form>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Eva A</td>
+                              <td>
+                                <form class="" action="index.html" method="post">
+                                  <input type="number" name="" class="it-wt" value="">
+                                </form>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Plastic B</td>
+                              <td>
+                                <form class="" action="index.html" method="post">
+                                  <input type="number" class="it-wt" name="" value="">
+                                </form>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Eva B</td>
+                              <td>
+                                <form class="" action="index.html" method="post">
+                                  <input type="number" name="" class="it-wt" value="">
+                                </form>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="col-md-5 pt-70 pb-70">
+                      </div>
+                      <button type="submit" class="btn-two mr-10 mb-50 f-right">Save</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /. PAGE INNER  -->
+  </div>
+  <!-- /. PAGE WRAPPER  -->
+
+  <!-- /. WRAPPER  -->
+  <!-- JS Scripts-->
+  <!-- jQuery Js -->
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/modernizr-3.6.0.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <!-- Bootstrap Js -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Data Table -->
+  <script src="js/jquery.dataTables.min.js"></script>
+  <script src="js/dataTables.bootstrap4.min.js"></script>
+  <!-- Dropdown Menu Js -->
+  <script src="js/dropdownMenu.js"></script>
+  <!-- Custom Js -->
+  <script src="js/main.js"></script>
+
+
+
+</body>
+
+</html>

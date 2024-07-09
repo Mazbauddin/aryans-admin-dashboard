@@ -1,0 +1,369 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* common css */
+
+  p {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 25px;
+    color: #777777;
+    margin-bottom: 15px;
+}
+
+  #page-wrapper {
+      padding: 15px 15px 70px;
+      min-height: 600px;
+      background: #ecf1f3;
+      position: relative;
+      top: 55px;
+      box-shadow: 0 0 10px #757575;
+      -moz-box-shadow: 0 0 10px #757575;
+      -webkit-box-shadow: 0 0 10px #757575;
+      margin: 0 0 0 200px;
+  }
+
+.panel-default > .panel-heading {
+    color: #969696;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    background-color: #fff;
+    margin-left: 18px;
+    padding-bottom: 10px;
+}
+
+button.btn-one {
+    width: 115px;
+    height: 28px;
+    color: #fff;
+    background: #398fc3;
+    border: none;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+button.btn-two {
+    color: #fff;
+    background: #398fc3;
+    border: none;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 15px;
+}
+button.btn-three {
+    width: 150px;
+    height: 35px;
+    color: #969696;
+    background: transparent;
+    border: 1px solid #969696;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+
+/* header part */
+  .logo {
+padding: 0px 10px;
+}
+.logo img {
+    margin: -10px;
+    width: 150px;
+    margin-top: -2px;
+}
+
+label {
+    color: #555555;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#sideNav {
+    float: left;
+    left: 0;
+    z-index: 3;
+    color: #868686;
+    cursor: pointer;
+    border-radius: 0;
+    width: 14px;
+    font-size: 48px;
+    line-height: 0;
+    margin: 16px 0 0 -5px;
+    display: none;
+}
+
+.txt-wth {
+    float: right;
+    margin-right: 20px;
+}
+
+.txt-wth p {
+    display: inline-block;
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 10px;
+    text-align: right;
+}
+
+.search-box {
+    height: 40px;
+    border-radius: 4px;
+    margin: 10px 0px 0px 20px;
+}
+
+.search-btn i {
+    font-size: 15px;
+    color: #919191;
+}
+.search-btn {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    padding: 9px 10px;
+}
+
+input.search-text {
+    padding: 4px 30px;
+    border: 1px solid #7d7d7d;
+    border-radius: 4px;
+    width: 250px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.inf h4 {
+    font-size: 16px;
+    color: #969696;
+}
+
+table.dataTable thead>tr>th.sorting_asc, table.dataTable thead>tr>th.sorting_desc, table.dataTable thead>tr>th.sorting, table.dataTable thead>tr>td.sorting_asc, table.dataTable thead>tr>td.sorting_desc, table.dataTable thead>tr>td.sorting {
+    padding-right: 10px;
+    padding-left: 3px;
+}
+
+div.dataTables_wrapper div.dataTables_filter input {
+    margin-left: 0.5em;
+    display: inline-block;
+    width: 150px;
+}
+
+div.dataTables_wrapper div.dataTables_info {
+    padding-top: 0.85em;
+    white-space: nowrap;
+    font-size: 12px;
+}
+
+div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+    margin: 2px 0;
+    white-space: nowrap;
+    justify-content: flex-end;
+    font-size: 12px;
+}
+
+div.dataTables_wrapper div.dataTables_length select {
+    width: auto;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.invoice-form .form-control {
+    margin-top: 9px;
+    height: 32px;
+    width: 208px;
+    font-size: 11px;
+}
+
+/* input.search-text {
+	padding: 10px 30px;
+	border: 1px solid #7d7d7d;
+	border-radius: 4px;
+	width: 220px;
+	font-size: 18px;
+	font-weight: 400;
+}
+.search-box {
+	height: 0px;
+	border-radius: 4px;
+	margin: 5px 0px 0px 20px;
+} */
+/* Side Nav part */
+
+nav.navbar-default.navbar-side {
+    height: 100vh;
+    width: 200px;
+    z-index: 1;
+    position: fixed;
+    top: 50px;
+}
+nav.navbar-default.navbar-side li img {
+    padding: 0px 10px 0px 5px;
+    margin-top: -5px;
+}
+nav.navbar-default.navbar-side li a {
+    font-size: 11px;
+    color: #fff;
+    font-weight: 400;
+}
+.nav-second-level li a {
+    padding: 12px 10px 12px 50px;
+}
+.nav-third-level li a {
+    padding: 12px 10px 12px 80px;
+}
+.arrow {
+    float: right;
+    font-size: 15px;
+    margin-top: 0px;
+    padding-right: 5px;
+    color: #fff;
+}
+
+/* edit customer */
+.edit-cus.ht-full {
+	height: 350px;
+}
+.cbox {
+    height: 40px;
+    width: 90px;
+    display: inline-block;
+}
+
+.off-information {
+    margin-top: 100px;
+}
+
+.name-field p {
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.customer-trend h4 {
+    font-size: 14px;
+    color: #4d4d4d;
+    font-weight: bold;
+}
+
+.customer-trend h3 {
+    font-size: 16px;
+    color: #191919;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.stock-information {
+    margin-top: 50px;
+}
+
+a.accordion-toggle {
+    font-size: 13px;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+    font-size: 11px;
+}
+.panel-heading.b-none {
+    border: none;
+}
+
+.table > tbody.lheight > tr > td, .table > tbody.lheight > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th {
+    padding: 8px;
+    line-height: 1.428571;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+    font-size: 11px;
+}
+
+input.it-wt {
+    width: 40px;
+    text-align: right;
+}
+
+.invoice-list li {
+    color: #868686;
+    font-size: 12px;
+}
+
+.panel-body.mls {
+    margin-left: 0px;
+}
+
+input.search-text.wt {
+    padding: 5px 30px;
+    border: 1px solid #7d7d7d;
+    border-radius: 4px;
+    width: 65%;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.rt {
+    width: 40px;
+    height: 37px;
+    position: absolute;
+    padding: 4px 10px;
+    right: 260px;
+    cursor: pointer;
+    font-size: 30px;
+    color: #969696;
+}
+
+p.ttl {
+    text-align: right;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+p.pair {
+    font-size: 14px;
+    margin-left: 6px;
+    text-align: left;
+}
+
+p.dzn {
+    text-align: center;
+    font-size: 14px;
+}
+p.t-amnt {
+    text-align: right;
+    margin-right: 68px;
+    font-size: 14px;
+}
+
+td.sorting_1 img {
+    width: 40px;
+    height: 40px;
+}
+
+table.table-bordered.dataTable tbody th, table.table-bordered.dataTable tbody td {
+    border-bottom-width: 0;
+    font-size: 11px;
+}
+
+
+}
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+
+
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+
+}
